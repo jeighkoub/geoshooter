@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1h8m8usb1umo"]
+
+[ext_resource type="Script" path="res://gravity_well/gravity_well.gd" id="1_7dyh5"]
+
+[node name="GravityWell" type="Area2D"]
+collision_layer = 8
+collision_mask = 7
+script = ExtResource("1_7dyh5")

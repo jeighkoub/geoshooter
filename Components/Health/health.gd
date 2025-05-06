@@ -24,6 +24,3 @@ func heal_health(amount):
 	health_healed.emit(amount)
 	if curr_health > max_health:
 		curr_health = max_health#avoid potential min() overhead
-
-func set_curr_health(value):
-	curr_health = clamp(value, 0, max_health)
